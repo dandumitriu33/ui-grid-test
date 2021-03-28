@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30711.63
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ui-grid-test.Web", "ui-grid-test.Web\ui-grid-test.Web.csproj", "{EC3335C9-11B9-4E82-AC74-96429064346E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC3335C9-11B9-4E82-AC74-96429064346E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC3335C9-11B9-4E82-AC74-96429064346E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC3335C9-11B9-4E82-AC74-96429064346E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC3335C9-11B9-4E82-AC74-96429064346E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {89591104-FACF-4485-85C9-CD4EFF15B162}
+	EndGlobalSection
+EndGlobal
