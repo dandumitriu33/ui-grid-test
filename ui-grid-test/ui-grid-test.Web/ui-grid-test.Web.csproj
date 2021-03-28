@@ -6,7 +6,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Scripts\" />
+    <None Include="wwwroot\Content\ui-grid.min.css" />
+    <None Include="wwwroot\Content\ui-grid.woff" />
+    <None Include="wwwroot\Scripts\angular.js" />
+    <None Include="wwwroot\Scripts\App\app.js" />
+    <None Include="wwwroot\Scripts\App\BizToBizUtils.js" />
+    <None Include="wwwroot\Scripts\App\controllers\MainController.js" />
+    <None Include="wwwroot\Scripts\App\gridSetrio.js" />
+    <None Include="wwwroot\Scripts\App\Order\Order.js" />
+    <None Include="wwwroot\Scripts\ui-grid.js" />
   </ItemGroup>
 
 </Project>

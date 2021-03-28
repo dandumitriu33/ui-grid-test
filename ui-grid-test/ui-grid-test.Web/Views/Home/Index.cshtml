@@ -2,7 +2,36 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div ng-app="app">
+    <div ng-controller="MainController">
+        <p>
+            {{ message }}
+        </p>
+        <div id="grid1" ui-grid="{ data: myData }" class="grid"></div>
+
+    </div>
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@section Scripts{ 
+    <script src="~/Scripts/App/app.js"></script>
+    <script src="~/Scripts/App/controllers/MainController.js"></script>
+}
